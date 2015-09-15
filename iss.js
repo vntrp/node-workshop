@@ -88,7 +88,7 @@ request('http://api.open-notify.org/iss-now.json', function (error, response, bo
               var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
 
               var d = R * c;
-              console.log(Math.round(d*100)/100 + "m")
+              console.log('You are currently located ' + Math.round(d*100)/100 + "m away from the ISS.")
               
           }
           else {
